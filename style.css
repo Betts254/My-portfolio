@@ -1,0 +1,132 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0d0c0c;
+    color: #333;
+    transition: background-color 0.01s ease-in-out;
+}
+
+header {
+    background: url("img/your-colorful-image.jpeg") center/cover no-repeat;
+    color: #111111;
+    text-align: center;
+    padding: 1em 0;
+    transition: background-color 0.1s ease-in-out;
+    border-radius: 60%;
+    overflow: hidden;
+}
+
+h1, h2, p {
+    margin: 0;
+}
+
+.header-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    color: #333;
+}
+
+.header-buttons button {
+    background-color: #eee;
+    color: #121111;
+    padding: 10px 15px;
+    margin: 0 10px;
+    border: navajowhite;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.4s ease-in-out;
+}
+
+.header-buttons button:hover {
+    background-color: #aeaaaa;
+}
+
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(94, 92, 92, 0.1);
+    border-radius: 6px;
+    transition: box-shadow 0.1s ease-in-out;
+}
+
+.portfolio-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.portfolio-item {
+    width: calc(50% - 10px);
+    margin-bottom: 20px;
+}
+
+.portfolio-image {
+    width: 100%;
+    height: auto;
+    max-width: 600px;
+    border-radius: 80px;
+    transition: transform 0.01s ease-in-out;
+    cursor: pointer;
+}
+
+.portfolio-image:hover {
+    transform: scale(1.2);
+}
+
+.carousel-inner {
+    display: flex;
+    justify-content: first baseline;
+}
+
+.carousel-item {
+    text-align: center;
+}
+
+.carousel-control-prev, .carousel-control-next {
+    filter: invert(100%);
+}
+
+.form-group {
+    margin-bottom: 16px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #ff6f61;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    transition: border-color 0.1s ease-in-out;
+}
+
+input:focus,
+textarea:focus {
+    border-color: #ff6f61;
+}
+
+button {
+    background-color: #ff6f61;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #231413;
+}
